@@ -1,5 +1,5 @@
 language: java
 git:
-  depth: false
+  depth: 3
 #script:
 #  - mvn test -B
