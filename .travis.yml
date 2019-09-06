@@ -1,3 +1,5 @@
 language: java
+git:
+  depth: false
 #script:
 #  - mvn test -B
