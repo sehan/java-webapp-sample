@@ -3,5 +3,9 @@ git:
   depth: 3
   quiet: true
   submodules: false
+
+branches:
+  only:
+    - master
 #script:
 #  - mvn test -B
