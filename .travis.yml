@@ -1,5 +1,6 @@
 language: java
 git:
   depth: 3
+  quiet: true
 #script:
 #  - mvn test -B
