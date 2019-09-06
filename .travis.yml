@@ -2,5 +2,6 @@ language: java
 git:
   depth: 3
   quiet: true
+  submodules: false
 #script:
 #  - mvn test -B
