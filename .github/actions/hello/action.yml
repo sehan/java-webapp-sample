@@ -1,0 +1,10 @@
+name: hello
+author: sehan
+description: hello action
+inputs:
+  name:
+    required: false
+    default: nio
+    description: name
+using: 'node12'
+main: 'main.js'
