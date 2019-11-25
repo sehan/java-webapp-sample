@@ -19,5 +19,7 @@ jobs:
     - uses: sehan/hello-world-action@f203b4a4b0
       with:
         who-to-greet: 'Nio'
+    - name: Get the output of hello-world
+      run: echo "The time was ${{ steps.hello.outputs.time }}"
     - name: Build with Maven
       run: mvn test -B
