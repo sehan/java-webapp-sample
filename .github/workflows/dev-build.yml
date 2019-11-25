@@ -16,7 +16,7 @@ jobs:
       uses: actions/setup-java@v1
       with:
         java-version: 1.8
-    - uses: sehan/hello-world-action@c5b488fb35
+    - uses: sehan/hello-world-action@e1018116a
       with:
         who-to-greet: 'Nio'
     - name: Build with Maven
