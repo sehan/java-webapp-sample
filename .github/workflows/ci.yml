@@ -1,9 +1,9 @@
-name: Java CI for develop
+name: Java CI for feature-1
 
 on:
   push:
     branches:
-      - feature/1
+      - develop
 
 jobs:
   build:
