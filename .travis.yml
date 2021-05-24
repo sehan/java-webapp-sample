@@ -6,6 +6,6 @@ git:
 
 branches:
   only:
-    - master
-#script:
-#  - mvn test -B
+    - develop
+script:
+ - mvn test -B
